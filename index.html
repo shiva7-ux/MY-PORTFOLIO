@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Porfolio</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/00f11df1a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+      <div id="header">
+          <div class="Container">
+             <nav>
+                  <img src="images/logo.png" class="logo">
+                 <ul id="sidemenu">
+                  <li><a href="#header">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li> <a href="images/OSASHIVA_RESUME.pdf" download >Resume</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                  <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+               <p>UI Designer</p>
+               <h1>Hi,I'm Shiva Kumar From india</h1>
+            </div>
+          </div>
+      </div>
+      <!--about -->
+       <div id="about">
+            <div class="container">
+               <div class="row">
+                 <div class="about-col-1">
+                       <img src="images/simg.jpg">
+                 </div>
+                 <div class="about-col-2">
+                      <h1 class="sub-title">About Me</h1>
+                      <br/>
+                      <p>I am Shiva Kumar, currently pursuing a BTech degree. I have a strong foundation in frontend development, with skills in HTML, CSS, JavaScript, and React. Additionally, I am proficient in programming languages such as Python and Java. I gained hands-on experience working as a web development intern, where I honed my abilities to build user-friendly, responsive web applications. I am passionate about learning new technologies and continuously improving my skills to become a better developer.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('education')" >Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                         <ul>
+                              <li><span>UI</span><br>Designing web/App Interfaces</li>
+                              <li><span>Python</span><br>Problem solving</li>
+                         </ul>
+                         </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience" >
+                        <ul>
+                             <li><span>Nov 2023 to Dec-2023</span><br>web developer intern at MotionCut</li>
+                             
+                        </ul>
+                        </ul>
+                   </div>
+
+                   <div class="tab-contents" id="education">
+                        <ul>
+                              
+                             <li><span>Intermediate:2020-2022</span><br>NARAYANA JUNIOR COLLEGE</li>
+                             <li><span>B.Tech:2022-2026</span><br>INSTITUTE OF AERONAUTICAL ENGINEERING</li>
+                        </ul>
+                        </ul>
+                   </div>
+                  </div>
+            </div>
+            </div>
+       </div>
+
+       <div id="services">
+          <div class="container">
+               <h1 class="sub-title">My services</h1>
+               <div class="services-list">
+                   <div>
+                    <i class="fa-solid fa-code"></i>
+                      <h2>Web Design</h2>
+                      <p>I am a dedicated web designer specializing in creating visually appealing and user-friendly websites.
+                    
+                      </p>
+                      <a href="#">Learn more</a>
+
+                      </div>
+                      <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                      <h2>UI Design</h2>
+                      <p>
+                         I am a UI designer who loves creating easy-to-use and beautiful interfaces. 
+
+
+                      </p>
+                      <a href="#">Learn more</a>
+                    </div>
+                   <div>
+                    <i class="fa-solid fa-font"></i>
+                      <h2>App Design</h2>
+                      <p>
+                         I am an app designer focused on creating simple, user-friendly, and visually appealing mobile experiences. 
+                      </p>
+                      <a href="#">Learn more</a>
+                   </div>
+               </div>
+          </div>
+       </div>
+
+
+       <div id="portfolio">
+         <div class="container">
+               <h1 class="sub-title">My Work</h1>
+               <div class="work-list">
+                   <div class="work">
+                       <img src="images/food.jpg.png">
+                       <div class="layer">
+                            <h3>Food delivery App</h3>
+                            <a href="#"> <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                       </div>
+                   </div>
+                   <div class="work">
+                    <img src="images/web.jpg.png">
+                    <div class="layer">
+                         <h3>Website</h3>
+                         <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work"></div>
+                    <img src="images/amazone.jpg.png">
+                    <div class="layer">
+                         <h3>Amazone Clone</h3>
+                         <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div> -->
+               
+               </div>
+               <a href="#" class="btn">See more</a>
+         </div>
+       </div>
+
+
+
+       <div id="contact">
+             <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>osashivakumar19@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>9392517202</p>
+                    <div class="social-icons">
+                         <a href="https://www.facebook.com/profile.php?id=100082846414339&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                         <a href="https://x.com/shivakumar42114?t=P9oRWR5633OW8Ih0kqFNNg&s=09"><i class="fa-brands fa-twitter-square"></i></a>
+                         <a href="https://www.instagram.com/shiva_osa?igsh=MWliZmJrYnZxdGNibA=="><i class="fa-brands fa-instagram"></i></a>
+                         <a href="https://www.linkedin.com/in/shiva-kumar-817312261/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                   
+                </div>
+                <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn btn2">Submit</button>
+               </form>
+               <p id="msg"></p>
+                </div>
+             </div>
+             <div class="copyright">
+                <p>Copyright © shiva</p>
+             </div>
+       </div>
+       <script>
+             var tablinks=document.getElementsByClassName("tab-links");
+             var tabcontents = document.getElementsByClassName("tab-contents");
+
+             function opentab(tabname){
+                  for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+                  }
+                  for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+                  }
+                  event.currentTarget.classList.add("active-link");
+                  document.getElementById(tabname).classList.add("active-tab");
+             }
+       </script>
+
+       <script>
+          var sidemenu=document.getElementById("sidemenu");
+          function openmenu(){
+               sidemenu.style.right="0";
+          }
+          function closemenu(){
+               sidemenu.style.right="-200px";
+          }
+       </script>
+
+<script>
+     const scriptURL = 'https://script.google.com/macros/s/AKfycbwMLAEy2FCeulGsaTfNbCV1yL6Pc7gC2m8OdKDlH2eCyo-JATIiy8bTRwGoYpUBrf1VXQ/exec'
+     const form = document.forms['submit-to-google-sheet']
+     const msg = document.getElementById("msg")
+
+     form.addEventListener('submit', e => {
+       e.preventDefault()
+       console.log('Form Submitted'); 
+       fetch(scriptURL, { method: 'POST', body: new FormData(form),  mode: 'no-cors'})
+         .then(response => {
+               msg.innerHTML = "Message sent successfully";
+               setTimeout(function(){
+               msg.innerHTML = ""
+          },5000)
+          form.reset();
+         })
+         .catch(error => console.error('Error!', error.message))
+     });
+   </script>
+</body>
+</html>
+
